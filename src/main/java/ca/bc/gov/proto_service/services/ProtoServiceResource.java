@@ -12,7 +12,7 @@ public class ProtoServiceResource {
 	 * My cool new prototype webservice to deploy to openshift
 	 */
 
-	@RequestMapping(method = RequestMethod.POST)
+	@RequestMapping(method = RequestMethod.GET)
 	public String helloWorld() {
 		final String answer="Shiny!";
 		return answer;
